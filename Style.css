@@ -2,38 +2,29 @@ body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
     background-color: #f0f8ff;
-    color: #333333;
+    color: #333;
     margin: 20px;
 }
 h1 {
     font-size: 32px;
     color: #003366;
-    font-weight: bold;
 }
-
 h3 {
     font-size: 24px;
     color: #0059b3;
-    font-weight: bold;
 }
 
 h4 {
     font-size: 20px;
     color: #0066cc;
 }
-
 p {
     font-size: 14px;
-    color: #333333;
+    color: #333;
 }
-
 a {
     color: #1a0dab;
     text-decoration: none;
-}
-
-a:visited {
-    color: #660099;
 }
 
 a:hover {
@@ -45,53 +36,33 @@ a:active {
     color: #ff3300;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
 .course-table {
+    display: table;
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.course-table th, .course-table td {
+.course-row {
+    display: table-row;
     border: 1px solid black;
-    padding: 10px;
 }
 
-.course-table th {
+.course-code {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
     background-color: #e6f7ff;
     font-weight: bold;
-    font-size: 16px;
 }
 
-.course-table td {
+.course-description {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
     background-color: #f2f2f2;
-    font-size: 14px;
 }
 
-div.content-box {
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-div.link-box {
-    padding: 10px;
-    background-color: #e6f7ff;
-    border: 1px solid #0066cc;
-    margin-bottom: 20px;
+body {
+    margin: 15px;
 }
