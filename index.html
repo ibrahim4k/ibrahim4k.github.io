@@ -1,69 +1,142 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-<link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Ibrahim Ahmad | Lab 5</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
-
 <body>
 
-    <h1>Ibrahim Ahmad (500-913-134), Lab 2</h1>
+    <div class="nav-links">
+        <a href="#education">Education</a>
+        <a href="#current-courses">Current Courses</a>
+        <a href="#academic-awards">Awards</a>
+        <a href="#extracurriculars">Extracurriculars</a>
+        <a href="#contact-form">Contact Form</a>
+    </div>
+
+  
+    <h1>Ibrahim Ahmad (500-913-134), Lab 5</h1>
     <hr>
-    <h3>Education</h3>
-    <p><ul>
-        <li>Humberside Collegiate Institute 2014 - 2018</li>
-        <li>Toronto Metropolitan University 2021 - present</li>
-        </ul></p>
+    <h3 id="education">Education</h3>
+    <p>
+        <ul>
+            <li>Humberside Collegiate Institute 2014 - 2018</li>
+            <li>Toronto Metropolitan University 2021 - present</li>
+        </ul>
+    </p>
     <hr>
     <h3>Program: <a href="https://www.torontomu.ca/programs/undergraduate/business-technology-management/">Toronto Metropolitan University - Business Technology Management (BComm)</a></h3>
-    <p>This program is Canada's largest school that is dedicated to business management and communication technologies. 
-        It combines business and tech skills to teach students how to manage IT projects and align technology with 
-        business goals. Graduates are able to pursue roles in various careers such as IT consulting, business analysis, 
-        tech management, and more.</p>
-    
-    <h4>Year 4 Fall Semester Courses:</h4>
+    <p>This program is Canada's largest school dedicated to business management and communication technologies. It combines business and tech skills to teach students how to manage IT projects and align technology with business goals. Graduates can pursue roles in various careers such as IT consulting, business analysis, tech management, and more.</p>
+
+    <h4 id="current-courses">Year 4 Fall Semester Courses:</h4>
     <div class="course-table">
         <div class="course-row">
             <div class="course-code"><a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/707/"><b>ITM 707:</b> Strategy, Management, and Acquisition</a></div>
-            <div class="course-description">Students learn how to manage information systems to support organizational goals. This course focuses on IS strategy, acquisition, and development from a senior manager's perspective.</div>
+            <div class="course-description">Focuses on IS strategy and management from a senior perspective.</div>
         </div>
         <div class="course-row">
             <div class="course-code"><a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/750/"><b>ITM 750:</b> IS Project Management</a></div>
-            <div class="course-description">Students will learn techniques for project planning, budgeting, scheduling, quality, communication, and risk management. This course focuses on the industry-standard Project Management Body of Knowledge (PMBOK).</div>
+            <div class="course-description">Covers project management techniques and the PMBOK framework.</div>
         </div>
         <div class="course-row">
             <div class="course-code"><a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/780/"><b>ITM 780:</b> Web Design and Management</a></div>
-            <div class="course-description">Students learn how to develop and manage business websites. This course focuses on HTML5, CSS3, and web standards.</div>
+            <div class="course-description">Intro to web design, HTML5, CSS3, and web standards.</div>
         </div>
         <div class="course-row">
             <div class="course-code"><a href="https://www.torontomu.ca/calendar/2024-2025/courses/media/RTA/928/"><b>RTA 928:</b> Introduction to Game Design</a></div>
-            <div class="course-description">This course introduces the core elements of game design, including game world, character, interactivity, and gameplay mechanics.</div>
+            <div class="course-description">Core elements of game design, including game world, character, interactivity, and gameplay mechanics.</div>
         </div>
         <div class="course-row">
             <div class="course-code"><a href="https://www.torontomu.ca/calendar/2024-2025/courses/sociology/SOC/902/"><b>SOC 902:</b> Hollywood and Society</a></div>
-            <div class="course-description">This course explores Hollywood's cultural impact, focusing on its history, structure, celebrity culture, and globalization.</div>
+            <div class="course-description">Explores Hollywood's cultural impact, focusing on its history, structure, celebrity culture, and globalization.</div>
         </div>
     </div>
 
-    <p>The course I have found most useful in this program
-         so far is ITM 550: Advanced e-Business. It taught me how to effectively build 
-         and design websites. I applied these skills outside of school 
-         by redesigning my own e-commerce site. This site is presently operational and generates a modest profit.</p>
+    <p>The course I have found most useful in this program so far is ITM 550: Advanced e-Business. It taught me how to effectively build and design websites. I applied these skills outside of school by redesigning my own e-commerce site. This site is presently operational and generates a modest profit.</p>
     
     <hr>
-    <h3>Educational Awards</h3>
+    <h3 id="academic-awards">Educational Awards</h3>
     <ul>
-        <li>Honour Roll, Humberside Collegiate Institute, 2014 </li>
+        <li>Honour Roll, Humberside Collegiate Institute, 2014</li>
         <li>Honour Roll, Humberside Collegiate Institute, 2015</li>
     </ul>
     <hr>
-    <h3>Extra-Curricular Activities</h3>
+    <h3 id="extracurriculars">Extra-Curricular Activities</h3>
     <ul>
-        <li>Soccer team, Humberside Collegiate Institute, 2014-2018 </li>
-        <li>Basketball team, Humberside Collegiate Institute, 2016-2018</li>
+        <li>Soccer Team, Humberside Collegiate Institute, 2014-2018</li>
+        <li>Basketball Team, Humberside Collegiate Institute, 2016-2018</li>
         <li>Middle Eastern Student Association, Humberside Collegiate Institute, 2018</li>
     </ul>
     <hr>
 
+    <!-- Contact Form Section with Border -->
+    <section id="contact-form">
+        <h2>Contact Form</h2>
+        <form id="infoForm">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </p>
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="role">Current Role:</label>
+                <input type="text" id="role" name="role" required>
+            </p>
+            <p>
+                <label for="experience">Professional Experience (Years):</label>
+                <select id="experience" name="experience">
+                    <option value="0-1">0-1</option>
+                    <option value="2-3">2-3</option>
+                    <option value="4-5">4-5</option>
+                    <option value="5+">5+</option>
+                </select>
+            </p>
+            <p>
+                <label>Preferred Areas of Work:</label><br>
+                <input type="radio" id="development" name="work_area" value="development">
+                <label for="development">Development</label><br>
+                <input type="radio" id="analysis" name="work_area" value="analysis">
+                <label for="analysis">Analysis</label><br>
+                <input type="radio" id="management" name="work_area" value="management">
+                <label for="management">Management</label><br>
+                <input type="radio" id="consulting" name="work_area" value="consulting">
+                <label for="consulting">Consulting</label>
+            </p>
+            <p>
+                <label>Skills Interested In Developing:</label><br>
+                <input type="checkbox" id="coding" name="skills" value="coding">
+                <label for="coding">Coding</label><br>
+                <input type="checkbox" id="project_management" name="skills" value="project_management">
+                <label for="project_management">Project Management</label><br>
+                <input type="checkbox" id="data_analysis" name="skills" value="data_analysis">
+                <label for="data_analysis">Data Analysis</label><br>
+                <input type="checkbox" id="design" name="skills" value="design">
+                <label for="design">Design</label>
+            </p>
+            <p>
+                <label for="comments">Additional Comments or Requirements:</label><br>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </p>
+            <p>
+                <!-- Submit/Reset Functions Applied -->
+                <input type="button" value="Submit" onclick="handleSubmit()">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © Ibrahim Ahmad 2024
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -5,22 +5,27 @@ body {
     color: #333;
     margin: 20px;
 }
+
 h1 {
     font-size: 32px;
     color: #003366;
 }
+
 h3 {
     font-size: 24px;
     color: #0059b3;
 }
+
 h4 {
     font-size: 20px;
     color: #0066cc;
 }
+
 p {
     font-size: 14px;
     color: #333;
 }
+
 a {
     color: #1a0dab;
     text-decoration: none;
@@ -59,6 +64,45 @@ a:active {
     display: table-cell;
     padding: 10px;
     border: 1px solid black;
+    background-color: #f2f2f2;
+}
+
+.nav-links {
+    display: table;
+    width: 100%;
+    background-color: #003366;
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    display: table-cell;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links a:hover {
+    background-color: #0059b3;
+    color: #f2f2f2;
+}
+
+footer {
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #003366;
+    color: #ffffff;
+}
+
+#contact-form form {
+    display: table;
+    width: 100%;
+    border: 2px solid #0059b3;
+    padding: 20px;
     background-color: #f2f2f2;
 }
 
