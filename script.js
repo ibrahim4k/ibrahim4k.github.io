@@ -29,3 +29,18 @@ function handleSubmit() {
         alert("Please fill in all required fields.");
     }
 }
+
+// Lab 8 JavaScript Functions
+function increaseFontSize() {
+    document.body.style.fontSize = "larger";
+}
+
+function toggleContrast() {
+    document.body.classList.toggle('high-contrast');
+}
+
+function showAltText(imageId) {
+    const image = document.getElementById(imageId);
+    const altText = image.alt;
+    document.getElementById('alt-text-display').innerText = altText;
+}

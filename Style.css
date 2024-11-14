@@ -109,3 +109,8 @@ footer {
 body {
     margin: 15px;
 }
+/* High Contrast Mode for Lab 8 */
+.high-contrast {
+    background-color: #000;
+    color: #fff;
+}

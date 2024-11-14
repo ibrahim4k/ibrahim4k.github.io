@@ -140,3 +140,24 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+    <!-- Lab 8 Accessibility Media Section -->
+    <h3>Media/Audio</h3>
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" 
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/ibrahim-ahmad-766135162/ibrahim-ahmad-website-video&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+    </iframe>
+    <figcaption>Audio Clip of Ibrahim Ahmad Saying "Welcome to my site...Be lenient when marking please. Thank you!"</figcaption>
+
+    <!-- Buttons for Accessibility Features -->
+    <button onclick="increaseFontSize()">Increase Text Size</button>
+    <button onclick="toggleContrast()">Toggle High Contrast</button>
+
+    <!-- Accessible Images with Alt Text Descriptions -->
+    <h3>Accessible Images</h3>
+    <img style="width:200px;height:auto;" id="Twoonie" src="c:\IBS STUFF\Ryerson\Semester 7\ITM 780\Lab 8\Twoonie.jpg" alt="Two Dollar Canadian Coin (Taken on November 13, 2024/Toronto, on Ibrahim's Laptop)" />
+    <button onclick="showAltText('Twoonie')">Show Alt Text</button>
+    <img style="width:200px;height:auto;" id="Loonie" src="c:\IBS STUFF\Ryerson\Semester 7\ITM 780\Lab 8\Loonie.jpg" alt="One Dollar Canadian Coin (Taken on November 13, 2024/Toronto, on Ibrahim's Laptop)" />
+    <button onclick="showAltText('Loonie')">Show Alt Text</button>
+    <img style="width:200px;height:auto;" id="Quarter" src="c:\IBS STUFF\Ryerson\Semester 7\ITM 780\Lab 8\Quarter.jpg" alt="Twenty-Five Cent Canadian Coin (Taken on November 13, 2024/Toronto, on Ibrahim's Laptop)" />
+    <button onclick="showAltText('Quarter')">Show Alt Text</button>
+    <p id="alt-text-display"></p>
